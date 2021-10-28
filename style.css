@@ -76,4 +76,41 @@
   box-shadow: 0 0 15px #1ba048;
 }
 
-/* #58e66b */
+@media (max-width: 400px) {
+  .banner .navbar-brand {
+    color: #58e66b;
+    font-size: 1.5em;
+    word-spacing: 10px;
+    margin: auto;
+  }
+
+  .banner .nav {
+    margin: auto;
+  }
+
+  .banner .nav li a {
+    color: #58e66b;
+    font-size: 0.8em;
+  }
+  .banner .info h1 {
+    font-size: 2em;
+    color: #fff;
+    word-spacing: 5px;
+    text-shadow: 0 0 8px #fff;
+  }
+  .banner .info p {
+    font-size: 0.8em;
+    word-spacing: 3px;
+    line-height: 1.6;
+  }
+  .banner .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    background: #58e66b;
+    padding: 14px 22px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
